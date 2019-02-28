@@ -2,6 +2,10 @@ package Classes;
 
 public class RomanToNumeral {
     public int getNumeral(char roman){
+        return 0;
+    }
+
+    public int getCharNumeral(char roman){
         switch (roman){
             case 'I':
                 return 1;
