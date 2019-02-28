@@ -1,8 +1,8 @@
 package Classes;
 
 public class RomanToNumeral {
-    public int getNumeral(char numeral){
-        switch (numeral){
+    public int getNumeral(char roman){
+        switch (roman){
             case 'I':
                 return 1;
             case 'V':
