@@ -51,7 +51,7 @@ public class NumeralToRoman {
             numeral -= 4;
             roman = roman + "IV";
         }
-        while (numeral >= 0){
+        while (numeral > 0){
             numeral -= 1;
             roman = roman + 'I';
         }

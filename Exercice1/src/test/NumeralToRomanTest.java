@@ -1,11 +1,15 @@
 package test;
 
+import Classes.NumeralToRoman;
+
 import static org.junit.Assert.*;
 
 public class NumeralToRomanTest {
+    private NumeralToRoman op;
 
     @org.junit.Before
     public void setUp() throws Exception {
+        op = new NumeralToRoman();
     }
 
     @org.junit.After
@@ -14,5 +18,6 @@ public class NumeralToRomanTest {
 
     @org.junit.Test
     public void getRoman() {
+        assertEquals("CXCIX", op.getRoman(199));
     }
 }
